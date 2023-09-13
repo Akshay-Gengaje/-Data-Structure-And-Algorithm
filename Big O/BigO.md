@@ -1,21 +1,24 @@
 # Big O Notation
 
-Big O notation is a mathematical notation that describes the limiting behavior of a function when the argument tends towards a particular value or infinity. In computer science, big O notation is used to classify algorithms according to how their run time or space requirements grow as the input size grows.
+Big O notation is used in Computer Science to describe the performance or complexity of an algorithm. It specifically measures the worst-case scenario, or the maximum amount of time, space, or other resources that an algorithm will require.
 
-The letter O is used because the growth rate of a function is also referred to as the order of the function. A description of a function in terms of big O notation usually only provides an upper bound on the growth rate of the function. Associated with big O notation are several related notations, using the symbols o, Ω, ω, and Θ, to describe other kinds of bounds on asymptotic growth rates.
+## Time Complexity
 
-Here are some examples of big O notation:
+Time complexity of an algorithm quantifies the amount of time taken by an algorithm to run, as a function of the size of the input to the program. Here are some common time complexities:
 
-    O(1): Constant time. The running time of the algorithm does not depend on the input size.
-    O(n): Linear time. The running time of the algorithm is proportional to the input size.
-    O(n^2): Quadratic time. The running time of the algorithm is proportional to the square of the input size.
-    O(log n): Logarithmic time. The running time of the algorithm is proportional to the logarithm of the input size.
-    O(2^n): Exponential time. The running time of the algorithm grows exponentially with the input size.
+- **O(1)**: Constant time complexity. The running time of the algorithm is constant and does not grow with the size of the input.
 
-Big O notation is a useful tool for comparing the performance of different algorithms. It can help you to choose the algorithm that is most efficient for a given problem.
+- **O(n)**: Linear time complexity. The running time of the algorithm grows linearly with the size of the input.
 
-Here are some of the benefits of using big O notation:
+- **O(n^2)**: Quadratic time complexity. The running time of the algorithm is proportional to the square of the size of the input.
 
-    It is a simple and concise way to describe the asymptotic behavior of a function.
-    It can be used to compare the performance of different algorithms.
-    It can help you to choose the algorithm that is most efficient for a given problem.
+- **O(log n)**: Logarithmic time complexity. The running time of the algorithm grows logarithmically with the size of the input.
+
+## Space Complexity
+
+Space complexity of an algorithm quantifies the amount of space or memory taken by an algorithm to run, as a function of the size of the input to the program. It's similar to time complexity, but instead of measuring time, we measure space.
+
+## Conclusion
+
+Understanding Big O notation helps in analyzing algorithms for efficiency. It provides us with a high-level understanding of which algorithms are scalable and efficient in terms of time and space.
+
