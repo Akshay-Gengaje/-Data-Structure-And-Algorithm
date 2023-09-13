@@ -14,6 +14,9 @@ Time complexity of an algorithm quantifies the amount of time taken by an algori
 
 - **O(log n)**: Logarithmic time complexity. The running time of the algorithm grows logarithmically with the size of the input.
 
+  ![image](https://github.com/Akshay-Gengaje/Data-Structure-And-Algorithm/assets/39873272/0ef5651b-89fc-48ab-b385-0a7e06892192)
+
+
 ## Space Complexity
 
 Space complexity of an algorithm quantifies the amount of space or memory taken by an algorithm to run, as a function of the size of the input to the program. It's similar to time complexity, but instead of measuring time, we measure space.
