@@ -22,7 +22,7 @@
 - Else-If the element that is to be searched is larger then the middle element then consider the second half as a separate list.
 - Repeat Step 2-3-4-5 Until desired result is found.
 
-![Alt text](Binary-Search-in-Java.webp)
+![Alt text](./Binary-Search-in-Java.webp)
 
 
-![Alt text](Binary-Search-in-Java-Example.webp)
+![Alt text](./Binary-Search-in-Java-Example.webp)
