@@ -1,8 +1,8 @@
-1. [**Big O notation**](<Big O/BigO.md>)
+1. [**Big O notation**](<1.Big O/BigO.md>)
 
-2. **Data structures**:
+2. [**Data structures**](<2.Data Structure/DataStructe.md>):
 
-- Arrays
+- [Arrays](<2.Data Structure/Array/Array.md>)
 - Hash Tables
 - Singly Linked Lists
 - Doubly Linked Lists
