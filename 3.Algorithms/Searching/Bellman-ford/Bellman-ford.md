@@ -1,0 +1,9 @@
+Bellman-Ford algorithm is a shortest-path algorithm used in graph theory. It can be used to find the shortest path between two nodes in a graph, even when there are negative edge weights. However, if there is a negative weight cycle in the graph, the algorithm will detect it.
+
+The algorithm works by maintaining a list of distances to all nodes from the starting node. Initially, the distance to the starting node is set to zero, and the distance to all other nodes is set to infinity. At each iteration, the algorithm relaxes all the edges in the graph. Relaxation refers to updating the distance of a node if a shorter path to that node is found. This process is repeated V-1 times, where V is the number of vertices in the graph.
+
+The algorithm detects negative weight cycles by performing a final relaxation step. If there is a negative weight cycle in the graph, the distances to some nodes will still be decreasing after V-1 iterations. In this case, the algorithm terminates with a message indicating the presence of a negative weight cycle.
+
+Bellman-Ford algorithm has a time complexity of O(VE), where E is the number of edges and V is the number of vertices in the graph. The algorithm is slower than Dijkstra's algorithm, which has a time complexity of O(E+VlogV), but it can handle negative weight edges.
+
+Overall, Bellman-Ford algorithm is a useful algorithm for finding shortest paths in graphs with negative weight edges. However, it is less efficient than Dijkstra's algorithm and should be used when negative weight edges are present or when it is necessary to detect negative weight cycles in the graph.
